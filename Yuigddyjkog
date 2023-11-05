@@ -1,0 +1,11 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("lolscripts")
+
+local KillingCheats = PhantomForcesWindow:NewSection("scripts")
+
+KillingCheats:CreateButton("Fps boost", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/y5reZYnG", true))()
+end)
+
+local KillingCheats = PhantomForcesWindow:NewSection("TY: lolscripts")
